@@ -1,0 +1,86 @@
+body {
+  padding: 30px 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+dl {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+dt {
+  width: 20%;
+  line-height: 30px;
+}
+
+dd {
+  width: 100%;
+}
+
+.ex-name {
+  display: flex;
+}
+
+span {
+  color: red;
+}
+
+.example {
+  font-size: 12px;
+  color: gray;
+  margin-top: 10px;
+}
+
+.ex-name-wid {
+  width: 51%;
+}
+
+.gender {
+  width: 30px;
+  height: 30px;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input {
+  height: 30px;
+}
+
+.last_name,
+.first_name {
+  width: 48%;
+}
+
+.email,
+.address,
+.building_name {
+  width: 98%;
+}
+
+.postcode {
+  width: 95%;
+}
+
+.opinion {
+  width: 98%;
+  height: 100px;
+}
+.text-danger {
+  color: red;
+}

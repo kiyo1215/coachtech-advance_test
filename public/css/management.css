@@ -1,0 +1,103 @@
+body {
+  padding: 50px;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+dl {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+dt {
+  width: 150px;
+  line-height: 30px;
+}
+
+.name_gender {
+  display: flex;
+}
+
+.serch {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+input {
+  height: 30px;
+  width: 250px;
+}
+
+.gender {
+  width: 30px;
+}
+
+.name_gender dl:nth-child(2) {
+  margin-left: 20px;
+}
+
+.name_gender dl:nth-child(2) dt {
+  width: 50px;
+}
+
+span {
+  margin: 0 10px;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  border-color: black;
+}
+
+a {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: gray;
+}
+
+th {
+  width: 90px;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 30px;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+
+td {
+  padding-left: 30px;
+  height: 30px;
+}
+
+.opinion-list {
+  max-width: 350px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+.opinion-list:hover {
+  text-overflow: clip;
+  white-space: normal;
+}
+.delete {
+  display: block;
+  width: 50px;
+  background-color: black;
+  color: white;
+  border-color: black;
+  border-radius: 5px;
+}
